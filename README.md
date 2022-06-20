@@ -9,3 +9,6 @@ v 1.0.0
 - add route for call controller's method oute::get('/db', [   \App\Http\Controllers\DbController::class,"index" ]
 ### result for <http://lara.local/db>:
 ![img.png](img.png)
+
+### screen of original .env config - FOR TEACHER USE ONLY - NOT FOR PUBLIC!!! 
+![img_1.png](img_1.png)
