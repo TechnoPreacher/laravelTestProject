@@ -3,6 +3,9 @@
 
 ## About
 
+v 1.1.0
+- add some routesgt
+
 v 1.0.0
 - add info for DB access in .env config
 - add simple db-test-connection controller \App\Http\Controllers\DbController with index method
