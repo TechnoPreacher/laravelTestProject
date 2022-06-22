@@ -1,4 +1,4 @@
-##v 1.1.0
+## V 1.1.0
 - add HomeController with index method for show custom main page from "views";
 - generate TaskController by artisan (only index method have realization yet)
 - create UserCrudController with simple CRUD methods
@@ -7,16 +7,16 @@
 - add some named routes for methods of UserCrudController ("/reg","/show", "/del", "/auth") which grouped by name
   (i add group by controller for code simplification)
 
-####result for <http://lara.local>:
+#### result for <http://lara.local>:
 ![img_4.png](img_4.png)
 
-####result for <http://lara.local/show>:
+#### result for <http://lara.local/show>:
 ![img_2.png](img_2.png)
 
-####result for <http://lara.local/tasks>:
+#### result for <http://lara.local/tasks>:
 ![img_3.png](img_3.png)
 
-##v 1.0.0
+## V 1.0.0
 - add info for DB access in .env config
 - add simple db-test-connection controller \App\Http\Controllers\DbController with index method
 - add route for call controller's method route::get('/db', [   \App\Http\Controllers\DbController::class,"index" ]
