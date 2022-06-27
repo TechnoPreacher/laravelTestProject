@@ -1,3 +1,18 @@
+## V 1.2.0 (MIGRATIONS)
+- add migrations for create of 4 tables 
+- add separate migrations (add_creator_id, add_status_id, ) for create foreign keys
+- create two seeders for data store
+
+structure of tables:
+![img_5.png](img_5.png)
+![img_6.png](img_6.png)
+![img_7.png](img_7.png)
+![img_8.png](img_8.png)
+
+data in tables after seeding:
+![img_9.png](img_9.png)
+![img_10.png](img_10.png)
+
 ## V 1.1.0
 - add HomeController with index method for show custom main page from "views";
 - generate TaskController by artisan (only index method have realization yet)

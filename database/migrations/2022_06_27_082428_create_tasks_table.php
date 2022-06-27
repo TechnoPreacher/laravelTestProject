@@ -15,11 +15,8 @@ return new class extends Migration
     {
         Schema::create('tasks', function (Blueprint $table) {
             $table->id();
-           // $table->bigInteger('creator_id');
-           // $table->foreignId('creator_id')->constrained('users');
             $table->string('title',100);
             $table->text('content');
-          //  $table->foreignId('status_id')->constrained('statuses');
             $table->timestamps();
         });
     }

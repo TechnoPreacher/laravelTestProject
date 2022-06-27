@@ -15,7 +15,7 @@ return new class extends Migration
     {
         Schema::create('labels', function (Blueprint $table) {
             $table->id();
-            $table->text('name',100);
+            $table->text('name',120);
             $table->text('color',16);
             $table->timestamps();
         });
