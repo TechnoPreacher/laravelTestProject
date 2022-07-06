@@ -1,8 +1,6 @@
 ##V 1.3 (MODELS and RELATION)
 - add 'Task', 'Label', 'Status' models with different relations
-- for example check relation 'on-to-many' between 'status' and 'task'
-
-DbController consist of additional info about verifying of relation
+- for example check relation 'on-to-many' between 'status' and 'task': DbController consist of additional info about verifying of relation
 
 result for call http://lara.local/db:
 ![img_13.png](img_13.png)
