@@ -1,4 +1,4 @@
-##V 1.3 (MODELS and RELATION)
+## V 1.3 (MODELS AND RELATION)
 - add 'Task', 'Label', 'Status' models with different relations
 - for example check relation 'on-to-many' between 'status' and 'task': DbController consist of additional info about verifying of relation
 
