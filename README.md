@@ -1,6 +1,6 @@
 ## V 1.4 (TEMPLATES & VIEWS)
 - add common layout "common.blade.php" to view/layouts which have style for some tags and content section
-- add two form for create and show/update user's table
+- add two view's form which extends common layout for create and show/update user's table
 - add some methods to UserCrudController for validation and create/update database
 - add some routes for form's usage and correct redirect
 
