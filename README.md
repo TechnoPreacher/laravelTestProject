@@ -4,6 +4,19 @@
 - add some methods to UserCrudController for validation and create/update database
 - add some routes for form's usage and correct redirect
 
+result for validation in create form:
+
+![img_15.png](img_15.png)
+
+result of show form for last added user:
+
+![img_16.png](img_16.png)
+
+validation on show form and automatic refill:
+
+![img_17.png](img_17.png)
+
+
 ## V 1.3 (MODELS AND RELATION)
 - add 'Task', 'Label', 'Status' models with different relations
 - for example check relation 'on-to-many' between 'status' and 'task': DbController consist of additional info about verifying of relation
