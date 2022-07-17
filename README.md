@@ -1,3 +1,9 @@
+## V 1.4 (TEMPLATES & VIEWS)
+- add common layout "common.blade.php" to view/layouts which have style for some tags and content section
+- add two form for create and show/update user's table
+- add some methods to UserCrudController for validation and create/update database
+- add some routes for form's usage and correct redirect
+
 ## V 1.3 (MODELS AND RELATION)
 - add 'Task', 'Label', 'Status' models with different relations
 - for example check relation 'on-to-many' between 'status' and 'task': DbController consist of additional info about verifying of relation

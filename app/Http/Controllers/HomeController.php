@@ -7,7 +7,7 @@ class HomeController
 
     public function index()
     {
-        return view('customwelcome');
+        return view('welcome');
     }
 
 }
