@@ -1,3 +1,24 @@
+## V 1.3 (MODELS AND RELATION)
+- add 'Task', 'Label', 'Status' models with different relations
+- for example check relation 'on-to-many' between 'status' and 'task': DbController consist of additional info about verifying of relation
+
+result for call http://lara.local/db:
+
+![img_13.png](img_13.png)
+
+
+when data in 'tasks' table is:
+
+![img_12.png](img_12.png)
+
+and data in 'statuses' table is:
+
+![img_14.png](img_14.png)
+
+## SCHEME OF DB
+
+![img_11.png](img_11.png)
+
 ## V 1.2.0 (MIGRATIONS)
 - add migrations for create of 4 tables 
 - add separate migrations (add_creator_id, add_status_id, ) for create foreign keys
