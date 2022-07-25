@@ -16,25 +16,31 @@ use Illuminate\Support\Facades\Route;
 
 //main page
 Route::get('/',
-    [   \App\Http\Controllers\HomeController::class,"index" ]
+    [\App\Http\Controllers\HomeController::class, "index"]
 )->name('mainPage');
 
 //group of named routes for user's controller with group by name
 Route::name('user.')->group(function () {
     Route::controller(UserCrudController::class)->group(function () {
-    Route::post('/reg', 'userRegistration')->name('userReg');
-    Route::get('/show', "userShowing")->name('userShow');
-    Route::post('/auth', "userAuthentication")->name('userAuth');;
-    Route::delete('/del', "userDeletion")->name('userDel');
+
+        Route::get('/reg', 'userRegistration')->name('userReg');
+        Route::post('/store', 'userStore')->name('userStore');
+
+        Route::get('/show', "userShowing")->name('userShow');
+        Route::post('/update', "userUpdate")->name('userUpdate');
+
+        Route::post('/auth', "userAuthentication")->name('userAuth');;
+        Route::delete('/del', "userDeletion")->name('userDel');
+    });
 });
-});
+
 
 //tasks
 Route::resource('/tasks', TaskController::class);
 
 //db check connection
 Route::get('/db',
-    [   \App\Http\Controllers\DbController::class,"index" ]
+    [\App\Http\Controllers\DbController::class, "index"]
 );
 
 
